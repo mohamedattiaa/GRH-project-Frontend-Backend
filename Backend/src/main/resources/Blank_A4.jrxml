@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ad222e0f-71b7-4368-bb03-86a5feb11837">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="GTI"/>
+	<queryString language="SQL">
+		<![CDATA[select * from employee_information]]>
+	</queryString>
+	<field name="id" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="account_number" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="account_number"/>
+		<property name="com.jaspersoft.studio.field.label" value="account_number"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="address"/>
+		<property name="com.jaspersoft.studio.field.label" value="address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="base_salary" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="base_salary"/>
+		<property name="com.jaspersoft.studio.field.label" value="base_salary"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="certifications" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="certifications"/>
+		<property name="com.jaspersoft.studio.field.label" value="certifications"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="cin" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="cin"/>
+		<property name="com.jaspersoft.studio.field.label" value="cin"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="collaborator" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="collaborator"/>
+		<property name="com.jaspersoft.studio.field.label" value="collaborator"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="comment" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="comment"/>
+		<property name="com.jaspersoft.studio.field.label" value="comment"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="contract_start_date" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="contract_start_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="contract_start_date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="contract_type" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="contract_type"/>
+		<property name="com.jaspersoft.studio.field.label" value="contract_type"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="date_of_birth" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="date_of_birth"/>
+		<property name="com.jaspersoft.studio.field.label" value="date_of_birth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="department" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="department"/>
+		<property name="com.jaspersoft.studio.field.label" value="department"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="education_level" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="education_level"/>
+		<property name="com.jaspersoft.studio.field.label" value="education_level"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="email"/>
+		<property name="com.jaspersoft.studio.field.label" value="email"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="fullname" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="fullname"/>
+		<property name="com.jaspersoft.studio.field.label" value="fullname"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="phone_number" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="phone_number"/>
+		<property name="com.jaspersoft.studio.field.label" value="phone_number"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="position" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="position"/>
+		<property name="com.jaspersoft.studio.field.label" value="position"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="recommendation" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.name" value="recommendation"/>
+		<property name="com.jaspersoft.studio.field.label" value="recommendation"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="salary_benefits" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="salary_benefits"/>
+		<property name="com.jaspersoft.studio.field.label" value="salary_benefits"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="social_security_number" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="social_security_number"/>
+		<property name="com.jaspersoft.studio.field.label" value="social_security_number"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="study_nature" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="study_nature"/>
+		<property name="com.jaspersoft.studio.field.label" value="study_nature"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="supervisor" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="supervisor"/>
+		<property name="com.jaspersoft.studio.field.label" value="supervisor"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<field name="years_of_experience" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="years_of_experience"/>
+		<property name="com.jaspersoft.studio.field.label" value="years_of_experience"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_information"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="57" splitType="Stretch">
+			<staticText>
+				<reportElement x="80" y="10" width="381" height="30" uuid="14ea5008-8ebf-4feb-8ad6-94a4dfd7b35f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Liste des employées]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="490" y="14" width="100" height="30" uuid="d8fd0ee3-59d7-41cf-b2e6-e298eb470c21"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="120" splitType="Stretch">
+			<textField>
+				<reportElement x="100" y="60" width="100" height="30" uuid="8967075b-69a3-4663-94c6-a6c9fb04bcb1"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="60" width="100" height="30" uuid="f1ea75e0-0b86-485d-a2c0-358c0247743a"/>
+				<text><![CDATA[marticule]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="90" width="100" height="30" uuid="6b08eeab-0416-40e2-8cb1-3751d6c54035"/>
+				<textFieldExpression><![CDATA[$F{account_number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="90" width="100" height="30" uuid="4ba34fca-6260-4070-8518-d9a3264ba929"/>
+				<text><![CDATA[account_number]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="305" y="63" width="100" height="30" uuid="84fea74a-736d-4aa0-b3a4-df82a060ff73"/>
+				<textFieldExpression><![CDATA[$F{date_of_birth}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="205" y="63" width="100" height="30" uuid="45576b69-1beb-4a95-93c7-b7f9ea2f0ab3"/>
+				<text><![CDATA[date_of_birth]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="498" y="20" width="100" height="30" uuid="306fa10a-5a62-4151-8b41-6f360b60ed5f"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
